@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.637)0,rgba(0, 0, 0, 0.473) 60%,rgba(0, 0, 0, 0.699) 100%), url("../src/background.jpg");
+
+}
+
+ul li .content{
+    max-height: 0;
+    padding: 0rem 1rem 0rem 1rem;
+}
+li input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 1rem;
+}
+li input[type="radio"]:checked ~ label .plus{
+    transform: rotate(135deg);
+} 
